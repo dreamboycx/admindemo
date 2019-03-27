@@ -2,16 +2,17 @@
 namespace app\index\controller;
 use think\Controller;
 use think\Session;
+// use think\Config;
 /**
  * 基础类，作为权限验证类
  */
 class Base extends Controller
 {
 	public function _initialize(){
+		// $auth = new \auth\Auth();
+		// $auth->test();
 		$time = time();
 		$activeTime = Session::get('activeTime');
-		// echo $activeTime;exit;
-		//没有登录直接跳转到登录页
         if(empty(Session::get(Config("ADMIN_AUTH")))){
         	if (request()->isAjax()) {
                 $exitInfo = array ('statusCode' => 301, 'message' => '会话超时，请重新登录。' );

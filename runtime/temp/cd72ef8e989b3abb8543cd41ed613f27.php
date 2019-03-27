@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:69:"E:\www\admindemo\public/../application/index\view\admin\rolelist.html";i:1548324293;s:56:"E:\www\admindemo\application\index\view\index\_meta.html";i:1548324299;s:58:"E:\www\admindemo\application\index\view\index\_footer.html";i:1545309420;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:69:"E:\www\admindemo\public/../application/index\view\admin\rolelist.html";i:1553667380;s:56:"E:\www\admindemo\application\index\view\index\_meta.html";i:1548324299;s:58:"E:\www\admindemo\application\index\view\index\_footer.html";i:1545309420;}*/ ?>
 ﻿<!DOCTYPE HTML>
 <html>
 <head>
@@ -57,7 +57,7 @@
 					<td><?php echo $vo['id']; ?></td>
 					<td><?php echo $vo['title']; ?></td>
 					<td><?php echo $vo['desc']; ?></td>
-					<td class="f-14"><a title="编辑" href="javascript:;" onclick="admin_role_edit('角色编辑','admin-role-add.html','<?php echo $vo['id']; ?>')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a title="删除" href="javascript:;" onclick="admin_role_del(this,'<?php echo $vo['id']; ?>')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+					<td class="f-14"><a title="编辑" href="javascript:;" onclick="admin_role_edit('角色编辑','admin-role-add.html','<?php echo $vo['id']; ?>')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a title="授权" href="javascript:;" onclick="admin_role_edit('角色授权','admin-role-add.html','<?php echo $vo['id']; ?>')" style="text-decoration:none"><i class="Hui-iconfont">&#xe63c;</i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a title="删除" href="javascript:;" onclick="admin_role_del(this,'<?php echo $vo['id']; ?>')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 				</tr>
 			<?php endforeach; endif; else: echo "" ;endif; ?>
 			<tr><td colspan="6"><?php echo $list->render(); ?></td></tr>

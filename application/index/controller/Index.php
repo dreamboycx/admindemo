@@ -5,7 +5,8 @@ class Index extends Base
 {
     public function index()
     {
-       return view();
+        $this->assign('name','ddddddd');
+        return view();
     }
     public function welcome()
     {

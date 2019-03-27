@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"E:\www\admindemo\public/../application/index\view\index\welcome.html";i:1545292572;s:56:"E:\www\admindemo\application\index\view\index\_meta.html";i:1545309410;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:68:"E:\www\admindemo\public/../application/index\view\index\welcome.html";i:1545292572;s:56:"E:\www\admindemo\application\index\view\index\_meta.html";i:1548324299;}*/ ?>
 ﻿<!DOCTYPE HTML>
 <html>
 <head>
@@ -26,6 +26,11 @@
 <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
 <script>DD_belatedPNG.fix('*');</script>
 <![endif]-->
+<style type="text/css">
+	ul.pagination{float: right;}
+	ul.pagination li {float: left;border: 1px solid #ccc;padding: 0 10px;margin:4px;}
+	ul.pagination li.activePage{background-color: #5a98de;color:#fff;} 
+</style>
 <title>我的桌面</title>
 </head>
 <body>

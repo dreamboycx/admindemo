@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:66:"E:\www\admindemo\public/../application/index\view\index\index.html";i:1548322983;s:56:"E:\www\admindemo\application\index\view\index\_meta.html";i:1545309410;s:56:"E:\www\admindemo\application\index\view\index\_menu.html";i:1548324148;s:58:"E:\www\admindemo\application\index\view\index\_footer.html";i:1545309420;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:66:"E:\www\admindemo\public/../application/index\view\index\index.html";i:1553667598;s:56:"E:\www\admindemo\application\index\view\index\_meta.html";i:1548324299;s:58:"E:\www\admindemo\application\index\view\index\_header.html";i:1553667771;s:56:"E:\www\admindemo\application\index\view\index\_menu.html";i:1548324148;s:58:"E:\www\admindemo\application\index\view\index\_footer.html";i:1545309420;}*/ ?>
 ﻿<!DOCTYPE HTML>
 <html>
 <head>
@@ -26,7 +26,12 @@
 <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
 <script>DD_belatedPNG.fix('*');</script>
 <![endif]-->
-<title>H-ui.admin v3.1</title>
+<style type="text/css">
+	ul.pagination{float: right;}
+	ul.pagination li {float: left;border: 1px solid #ccc;padding: 0 10px;margin:4px;}
+	ul.pagination li.activePage{background-color: #5a98de;color:#fff;} 
+</style>
+<title>Thinkphp后台管理系统</title>
 <meta name="keywords" content="H-ui.admin v3.1,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
 <meta name="description" content="H-ui.admin v3.1，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
 </head>

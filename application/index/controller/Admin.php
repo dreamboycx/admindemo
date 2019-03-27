@@ -105,7 +105,7 @@ class Admin extends Base
     public function rolelist()
     {
     	$list = Db::table('tbauth_group')->paginate(4);
-        print_r($list);exit;
+        // print_r($list);exit;
         $this->assign('list', $list);
     	return view();
     }
